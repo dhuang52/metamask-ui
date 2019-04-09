@@ -73,7 +73,7 @@ class App extends Component {
       )
     } else if(!this.state.hasAccounts) {
       return(
-        <ErrorMsg message="It appears that you have no Metamask account" />
+        <ErrorMsg message="It appears that your Metamask account is locked" />
       )
     }
     else if(this.state.isLocked) {
