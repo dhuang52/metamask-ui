@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { Container, Row, Col } from 'react-bootstrap';
 import './App.css';
 import Info from './Components/Info.js';
 import Loading from './Components/Loading.js';
